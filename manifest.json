@@ -1,7 +1,7 @@
 {
-  "name": "Energy Lite",
-  "short_name": "Energy Lite",
-  "description": "Ultra-fast energy converter.",
+  "name": "KJ <-> Cal",
+  "short_name": "KJ <-> Cal",
+  "description": "Ultra lightweight energy converter.",
   "start_url": ".",
   "scope": ".",
   "display": "standalone",
@@ -15,4 +15,5 @@
       "purpose": "any maskable"
     }
   ]
+
 }
