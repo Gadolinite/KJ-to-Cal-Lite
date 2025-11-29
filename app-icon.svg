@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+    <defs>
+        <linearGradient id="g" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" stop-color="#fb923c"/>
+            <stop offset="50%" stop-color="#f87171"/>
+            <stop offset="100%" stop-color="#ec4899"/>
+        </linearGradient>
+        <filter id="f" x="-20%" y="-20%" width="140%" height="140%">
+            <feDropShadow dx="0" dy="8" stdDeviation="8" flood-opacity="0.15"/>
+        </filter>
+    </defs>
+    
+    <!-- Background: Rounded Square (iOS Style) -->
+    <rect width="512" height="512" rx="110" fill="url(#g)"/>
+    
+    <!-- Aerodynamic Bolt Symbol -->
+    <!-- Slanted, sharp, with a sense of forward motion -->
+    <path fill="#ffffff" filter="url(#f)" d="M342.6 64.4c-9.8-4.2-21-2.2-28.8 5.2L135.5 237.4c-12.8 12.1-9.1 33.6 7.2 40.6l88.5 37.9-38.8 122.9c-5.1 16.2 12 30.6 27.2 22.8l184.4-94.6c11.7-6 17.4-19.6 13.8-32.3l-19.6-69.2 68.6-23.4c12.2-4.2 18.2-17.9 13.4-29.9L367.4 83.9c-4.4-10.9-13.8-17.1-24.8-19.5z"/>
+</svg>
